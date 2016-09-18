@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [login Suite]">
+  <listeners>
+    <listener class-name="com.pack.tests.TestInvocation"/>
+  </listeners>
+  <test name="LoginTests(failed)">
+    <classes>
+      <class name="com.pack.tests.HomePageTests">
+        <methods>
+          <include name="verifyLogout"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.pack.tests.HomePageTests -->
+    </classes>
+  </test> <!-- LoginTests(failed) -->
+</suite> <!-- Failed suite [login Suite] -->
